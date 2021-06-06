@@ -1,0 +1,21 @@
+html {
+  align-items: center;
+  align-content: center;
+  color: white;
+  background-color: #0e0e0e;
+
+  .cnt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+
+    #ipAddress {
+      font-weight: bold;
+    }
+
+    code {
+      font-size: large;
+    }
+  }
+}
